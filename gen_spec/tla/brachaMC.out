@@ -1,0 +1,87 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.18 of Day Month 20?? (rev: 7279336)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 28 and seed 7674193217951272452 with 4 workers on 12 cores with 3292MB heap and 64MB offheap memory [pid: 20482] (Linux 6.1.90-1-MANJARO amd64, N/A 22 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/brachaMC.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/bracha.tla
+Parsing file /tmp/tlc-14699820465561719357/Sequences.tla (jar:file:/home/me/.vscode-oss/extensions/alygin.vscode-tlaplus-nightly-2024.5.2206-universal/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-14699820465561719357/FiniteSets.tla (jar:file:/home/me/.vscode-oss/extensions/alygin.vscode-tlaplus-nightly-2024.5.2206-universal/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-14699820465561719357/Integers.tla (jar:file:/home/me/.vscode-oss/extensions/alygin.vscode-tlaplus-nightly-2024.5.2206-universal/tools/tla2tools.jar!/tla2sany/StandardModules/Integers.tla)
+Parsing file /tmp/tlc-14699820465561719357/TLC.tla (jar:file:/home/me/.vscode-oss/extensions/alygin.vscode-tlaplus-nightly-2024.5.2206-universal/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-14699820465561719357/Naturals.tla (jar:file:/home/me/.vscode-oss/extensions/alygin.vscode-tlaplus-nightly-2024.5.2206-universal/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/Type.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/BrachaRBC.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/Process.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/Messaging.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/System.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/init.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/predicate.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/handle_cast_15.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/handle_cast_16.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/handle_cast_17.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/handle_cast_18.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/Context.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/Map.tla
+Parsing file /home/me/Documents/Magistras/gen-tla-spec/gen_spec/tla/GenServer.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module Integers
+Semantic processing of module TLC
+Semantic processing of module Context
+Semantic processing of module Process
+Semantic processing of module Messaging
+Semantic processing of module System
+Semantic processing of module Type
+Semantic processing of module Map
+Semantic processing of module init
+Semantic processing of module predicate
+Semantic processing of module GenServer
+Semantic processing of module handle_cast_15
+Semantic processing of module handle_cast_16
+Semantic processing of module handle_cast_17
+Semantic processing of module handle_cast_18
+Semantic processing of module bracha
+Semantic processing of module BrachaRBC
+Semantic processing of module brachaMC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-05-23 00:53:49)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2024-05-23 00:53:50.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2024-05-23 00:53:53: 57,422 states generated (57,422 s/min), 28,968 distinct states found (28,968 ds/min), 767 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 5.1E-11
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2024-05-23 00:53:53: 61,419 states generated (979,309 s/min), 30,880 distinct states found (492,373 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+61419 states generated, 30880 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 67.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 4 and the 95th percentile is 2).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 3764ms at (2024-05-23 00:53:53)
+@!@!@ENDMSG 2186 @!@!@
